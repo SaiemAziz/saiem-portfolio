@@ -31,8 +31,8 @@ const Banner = () => {
                     <h1 className='lg:hidden font-semibold text-4xl sm:text-5xl' data-aos='fade-right' data-aos-delay='400'>Md. Abu Saiem</h1>
                     <h1 className='lg:hidden font-semibold text-4xl sm:text-5xl mb-0' data-aos='fade-left' data-aos-delay='400'>Aziz Chowdhury</h1>
                     <img className='rounded-full' src='https://i.ibb.co/611M4DZ/crop-photo-2022-06-16-22-49-59.jpg' alt="" data-aos='fade-left'/>
-                    <h1 className='lg:hidden text-2xl italic font-thin mt-10' data-aos='fade-right' data-aos-delay='700'>MERN Stack Developer</h1>
-                    <div className='w-full lg:hidden flex justify-center gap-5' data-aos='fade-left' data-aos-delay='1000'>
+                    <h1 className='lg:hidden text-2xl italic font-thin mt-10' data-aos='fade-right' data-aos-delay='400'>MERN Stack Developer</h1>
+                    <div className='w-full lg:hidden flex justify-center gap-5' data-aos='fade-left'>
                         <div className='text-4xl mt-10 rounded-full flex w-fit tooltip-bottom tooltip' data-tip='+8801763-536733'><BsFillTelephoneFill/></div>
                         <a target={'_blank'} rel='noreferrer' href="https://github.com/SaiemAziz" className='text-4xl mt-10 rounded-full flex w-fit' ><AiFillGithub/></a>
                         <a target={'_blank'} rel='noreferrer' href="https://www.instagram.com/sayem_aziz_chowdhury/" className='text-4xl mt-10 rounded-full flex w-fit' ><AiFillInstagram/></a>
@@ -40,7 +40,7 @@ const Banner = () => {
                         <a target={'_blank'} rel='noreferrer' href="mailto:sayemazizchy@gmail.com" className='text-4xl mt-10 rounded-full flex w-fit' ><SiGmail/></a>
                         <a target={'_blank'} rel='noreferrer' href="https://www.linkedin.com/in/md-abu-saiem-aziz-chowdhury-9b7217247/" className='text-4xl mt-10 rounded-full flex w-fit' ><BsLinkedin/></a>
                     </div>
-                    <div className='w-full lg:hidden flex justify-center gap-3' data-aos='fade-right' data-aos-delay='1000'>
+                    <div className='w-full lg:hidden flex justify-center gap-3' data-aos='fade-right'>
                         <a target={'_blank'} rel='noreferrer' href="https://drive.google.com/file/d/1gvhKt7IbZXZf9zsESlv662981JMeJ8VF/view" className='btn btn-outline mt-5 rounded-full flex gap-5 w-fit ' >Resume</a>
                         <a href="#projects" className='btn btn-outline mt-5 rounded-full flex gap-5 w-fit ' >Projects <BsArrowRight/></a>
                     </div>

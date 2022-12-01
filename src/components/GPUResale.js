@@ -15,7 +15,7 @@ import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 const GPUResale = () => {
   return (
-    <div className="card glass" data-aos="fade-right" data-aos-delay="300">
+    <div className="card glass rounded-3xl overflow-hidden" data-aos="fade-right" data-aos-delay="300">
       <div className=" rounded-t-3xl overflow-hidden">
         <Swiper
           effect={"coverflow"}
@@ -29,26 +29,26 @@ const GPUResale = () => {
           modules={[EffectCoverflow, Autoplay]}
           className="mySwiper"
         >
-          <SwiperSlide>
-            <img alt="" src={img1} />
+          <SwiperSlide >
+            <img  alt="" src={img1} />
           </SwiperSlide>
-          <SwiperSlide>
-            <img alt="" src={img2} />
+          <SwiperSlide >
+            <img  alt="" src={img2} />
           </SwiperSlide>
-          <SwiperSlide>
-            <img alt="" src={img3} />
+          <SwiperSlide >
+            <img  alt="" src={img3} />
           </SwiperSlide>
-          <SwiperSlide>
-            <img alt="" src={img4} />
+          <SwiperSlide >
+            <img  alt="" src={img4} />
           </SwiperSlide>
-          <SwiperSlide>
-            <img alt="" src={img5} />
+          <SwiperSlide >
+            <img  alt="" src={img5} />
           </SwiperSlide>
-          <SwiperSlide>
-            <img alt="" src={img7} />
+          <SwiperSlide >
+            <img  alt="" src={img7} />
           </SwiperSlide>
-          <SwiperSlide>
-            <img alt="" src={img8} />
+          <SwiperSlide >
+            <img  alt="" src={img8} />
           </SwiperSlide>
         </Swiper>
       </div>

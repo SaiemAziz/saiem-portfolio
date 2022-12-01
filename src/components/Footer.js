@@ -6,16 +6,16 @@ const Footer = () => {
   return (
     <div className=""
     data-aos="flip-down">
-      <h1 className="font-bold text-success">Md. Abu Saiem Aziz Chowdhury</h1>
-      <h1 className=" text-sm font-bold text-info">Address: Imam-Nagar, Bhatiary, Sitakund, Chitagong, Bangladesh</h1>
+      <h1 className="font-bold text-accent-focus">Md. Abu Saiem Aziz Chowdhury</h1>
+      <h1 className=" text-sm font-bold text-accent-focus">Address: Imam-Nagar, Bhatiary, Sitakund, Chitagong, Bangladesh</h1>
       <div
         className="w-full  p-5 flex justify-center gap-5 text-warning"
       >
         <div
-          className="text-4xl rounded-full flex w-fit tooltip-bottom tooltip"
+          className="text-4xl rounded-full flex w-fit tooltip-top tooltip font-bold tooltip-warning"
           data-tip="+8801763-536733"
         >
-          <BsFillTelephoneFill />
+          <BsFillTelephoneFill className="text-warning font-normal"/>
         </div>
         <a
           target={"_blank"}

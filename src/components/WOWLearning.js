@@ -15,7 +15,7 @@ import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 const WOWLearning = () => {
   return (
-    <div className="card glass " data-aos="fade-right" data-aos-delay="300">
+    <div className="card glass rounded-3xl overflow-hidden" data-aos="fade-right" data-aos-delay="300">
       <div className="rounded-t-3xl overflow-hidden">
         <Swiper
           effect={"fade"}

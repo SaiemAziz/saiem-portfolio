@@ -12,7 +12,7 @@ import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 const Clickzzz = () => {
   return (
-    <div className="card glass " data-aos="fade-left" data-aos-delay="300">
+    <div className="card glass rounded-3xl overflow-hidden" data-aos="fade-left" data-aos-delay="300">
       <div className="rounded-t-3xl overflow-hidden">
         <Swiper
           effect={"cube"}
