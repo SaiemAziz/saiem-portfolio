@@ -10,6 +10,7 @@ import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import "swiper/css/effect-flip";
 import "swiper/css/effect-coverflow";
+import PhotoZoom from "./PhotoZoom";
 const SimpleTest = () => {
   return (
     <div className="card glass rounded-3xl overflow-hidden" data-aos="fade-left" data-aos-delay="300">
@@ -27,16 +28,16 @@ const SimpleTest = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img className="w-full" alt="" src={img1} />
+            <PhotoZoom link={'https://i.ibb.co/cTvgxz9/Screenshot-2022-11-30-174157.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img className="w-full" alt="" src={img2} />
+            <PhotoZoom link={'https://i.ibb.co/N6BvDJs/Screenshot-2022-11-30-174227.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img className="w-full" alt="" src={img3} />
+            <PhotoZoom link={'https://i.ibb.co/yR5WZ7S/Screenshot-2022-11-30-174243.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img className="w-full" alt="" src={img4} />
+            <PhotoZoom link={'https://i.ibb.co/JcvJtLC/Screenshot-2022-11-30-174254.jpg'}/>
           </SwiperSlide>
         </Swiper>
       </div>

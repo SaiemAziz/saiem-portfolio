@@ -13,6 +13,7 @@ import img8 from '../assets/WOWLearning/Screenshot 2022-11-30 164027.jpg'
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
+import PhotoZoom from "./PhotoZoom";
 const WOWLearning = () => {
   return (
     <div className="card glass rounded-3xl overflow-hidden" data-aos="fade-right" data-aos-delay="300">
@@ -29,28 +30,28 @@ const WOWLearning = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img alt="" src={img1} />
+            <PhotoZoom link={'https://i.ibb.co/9bnSsYN/Screenshot-2022-11-30-163746.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img2} />
+            <PhotoZoom link={'https://i.ibb.co/nbynJhb/Screenshot-2022-11-30-163810.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img3} />
+            <PhotoZoom link={'https://i.ibb.co/b7Fs4wk/Screenshot-2022-11-30-163831.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img4} />
+            <PhotoZoom link={'https://i.ibb.co/hCH4qK1/Screenshot-2022-11-30-163846.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img5} />
+            <PhotoZoom link={'https://i.ibb.co/pX2wrhs/Screenshot-2022-11-30-163937.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img6} />
+            <PhotoZoom link={'https://i.ibb.co/hcY56DH/Screenshot-2022-11-30-163950.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img7} />
+            <PhotoZoom link={'https://i.ibb.co/RpSKzYD/Screenshot-2022-11-30-164016.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img8} />
+            <PhotoZoom link={'https://i.ibb.co/fr03bMk/Screenshot-2022-11-30-164027.jpg'}/>
           </SwiperSlide>
         </Swiper>
       </div>

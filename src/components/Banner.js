@@ -3,6 +3,7 @@ import bannerImage from '../assets/crop-photo_2022-06-16_22-49-59.jpg'
 import {BsArrowRight, BsLinkedin, BsFillTelephoneFill} from 'react-icons/bs'
 import {SiGmail} from 'react-icons/si'
 import {AiFillFacebook, AiFillInstagram, AiFillGithub} from 'react-icons/ai'
+import PhotoZoom from './PhotoZoom';
 const Banner = () => {
     return (
         <div className="bg-[#000000] min-h-screen flex justify-center items-center">

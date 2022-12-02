@@ -10,6 +10,7 @@ import img6 from "../assets/Clickzzz/Screenshot 2022-11-30 154423.jpg";
 import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
+import PhotoZoom from "./PhotoZoom";
 const Clickzzz = () => {
   return (
     <div className="card glass rounded-3xl overflow-hidden" data-aos="fade-left" data-aos-delay="300">
@@ -28,22 +29,22 @@ const Clickzzz = () => {
           className="mySwiper"
         >
           <SwiperSlide>
-            <img alt="" src={img1} />
+            <PhotoZoom link={'https://i.ibb.co/4pZbV9x/Screenshot-2022-11-30-154114.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img2} />
+          <PhotoZoom link={'https://i.ibb.co/3YfbBtZ/Screenshot-2022-11-30-154226.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img3} />
+          <PhotoZoom link={'https://i.ibb.co/qMmTSd7/Screenshot-2022-11-30-154258.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img4} />
+          <PhotoZoom link={'https://i.ibb.co/TMNy0kh/Screenshot-2022-11-30-154344.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img5} />
+          <PhotoZoom link={'https://i.ibb.co/zF2vPp5/Screenshot-2022-11-30-154423.jpg'}/>
           </SwiperSlide>
           <SwiperSlide>
-            <img alt="" src={img6} />
+          <PhotoZoom link={'https://i.ibb.co/j8Zsjyz/Screenshot-2022-11-30-154406.jpg'}/>
           </SwiperSlide>
         </Swiper>
       </div>

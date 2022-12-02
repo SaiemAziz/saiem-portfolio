@@ -13,6 +13,7 @@ import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
+import PhotoZoom from "./PhotoZoom";
 const GPUResale = () => {
   return (
     <div className="card glass rounded-3xl overflow-hidden" data-aos="fade-right" data-aos-delay="300">
@@ -30,25 +31,28 @@ const GPUResale = () => {
           className="mySwiper"
         >
           <SwiperSlide >
-            <img  alt="" src={img1} />
+          <PhotoZoom link={'https://i.ibb.co/Nm54Bw3/Screenshot-2022-11-30-162604.jpg'}/>
           </SwiperSlide>
           <SwiperSlide >
-            <img  alt="" src={img2} />
+            <PhotoZoom link={'https://i.ibb.co/Bzw5SV5/Screenshot-2022-11-30-162643.jpg'}/>
           </SwiperSlide>
           <SwiperSlide >
-            <img  alt="" src={img3} />
+            <PhotoZoom link={'https://i.ibb.co/sb24PWB/Screenshot-2022-11-30-162702.jpg'}/>
           </SwiperSlide>
           <SwiperSlide >
-            <img  alt="" src={img4} />
+            <PhotoZoom link={'https://i.ibb.co/CW4Nwp6/Screenshot-2022-11-30-162724.jpg'}/>
           </SwiperSlide>
           <SwiperSlide >
-            <img  alt="" src={img5} />
+            <PhotoZoom link={'https://i.ibb.co/85RHJT1/Screenshot-2022-11-30-162817.jpg'}/>
           </SwiperSlide>
           <SwiperSlide >
-            <img  alt="" src={img7} />
+            <PhotoZoom link={'https://i.ibb.co/VxS7RDQ/Screenshot-2022-11-30-162932.jpg'}/>
           </SwiperSlide>
           <SwiperSlide >
-            <img  alt="" src={img8} />
+            <PhotoZoom link={'https://i.ibb.co/h8LkyGx/Screenshot-2022-11-30-162910.jpg'}/>
+          </SwiperSlide>
+          <SwiperSlide >
+            <PhotoZoom link={'https://i.ibb.co/xHsZ2VJ/Screenshot-2022-11-30-162950.jpg'}/>
           </SwiperSlide>
         </Swiper>
       </div>
