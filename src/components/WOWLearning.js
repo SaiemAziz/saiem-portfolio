@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Pagination, Autoplay } from "swiper";
 import img1 from '../assets/WOWLearning/Screenshot 2022-11-30 163746.jpg'
@@ -14,9 +14,18 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
 import PhotoZoom from "./PhotoZoom";
+import { Link, useLocation } from "react-router-dom";
 const WOWLearning = () => {
+  const location = useLocation();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
-    <div className="card glass rounded-3xl overflow-hidden" data-aos="fade-right" data-aos-delay="300">
+    <div className="py-20 w-screen overflow-hidden bg-[url('https://i.pinimg.com/originals/20/ae/f2/20aef23d39a8dcb74bf663ed89ab08d6.gif')] text-slate-50 bg-container bg-center" >
+      <h1 className="text-6xl font-semibold text-info text-center mb-10">
+        Wow Learning Details
+      </h1>
+    <div className="card mx-auto max-w-6xl glass rounded-3xl overflow-hidden" data-aos='zoom-out' data-aos-easing="ease-in-sine">
       <div className="rounded-t-3xl overflow-hidden">
         <Swiper
           effect={"fade"}
@@ -86,6 +95,12 @@ const WOWLearning = () => {
           </div>
       </div>
       </div>
+    </div>
+    <div className="w-fit mx-auto mt-10">
+      <Link to = '/#projects'>
+        <button className="btn btn-outline btn-accent">Go Back To Projects</button>
+      </Link>
+    </div>
     </div>
   );
 };

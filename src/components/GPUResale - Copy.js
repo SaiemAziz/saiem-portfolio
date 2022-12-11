@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCube, Pagination, EffectCoverflow, Autoplay } from "swiper";
 import img1 from '../assets/GPUResale/Screenshot 2022-11-30 162604.jpg'
@@ -14,18 +14,9 @@ import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 import "swiper/css/effect-coverflow";
 import PhotoZoom from "./PhotoZoom";
-import { Link, useLocation } from "react-router-dom";
 const GPUResale = () => {
-  const location = useLocation();
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [location]);
   return (
-    <div className="py-20 w-screen overflow-hidden bg-[url('https://i.pinimg.com/originals/20/ae/f2/20aef23d39a8dcb74bf663ed89ab08d6.gif')] text-slate-50 bg-container bg-center" >
-      <h1 className="text-6xl font-semibold text-info text-center mb-10">
-        GPU Resale Details
-      </h1>
-    <div className="card max-w-6xl mx-auto glass rounded-3xl overflow-hidden" data-aos='zoom-out' data-aos-easing="ease-in-sine">
+    <div className="card glass rounded-3xl overflow-hidden" data-aos="fade-right" data-aos-delay="300">
       <div className=" rounded-t-3xl overflow-hidden">
         <Swiper
           effect={"coverflow"}
@@ -101,12 +92,6 @@ efficient.</li>
           </div>
       </div>
       </div>
-    </div>
-    <div className="w-fit mx-auto mt-10">
-      <Link to = '/#projects'>
-        <button className="btn btn-outline btn-accent">Go Back To Projects</button>
-      </Link>
-    </div>
     </div>
   );
 };

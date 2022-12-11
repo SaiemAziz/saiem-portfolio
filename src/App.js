@@ -26,7 +26,6 @@ function App() {
     <div
       className={`App w-screen overflow-hidden bg-[url('https://i.pinimg.com/originals/20/ae/f2/20aef23d39a8dcb74bf663ed89ab08d6.gif')] text-slate-50 bg-container bg-center`}
     >
-      
       <div className="bg-gradient-to-t from-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.3)] min-h-screen">
         <Banner />
         <Projects />

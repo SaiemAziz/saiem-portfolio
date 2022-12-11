@@ -5,7 +5,7 @@ import { AiFillFacebook, AiFillInstagram, AiFillGithub } from "react-icons/ai";
 const Footer = () => {
   return (
     <div className=""
-    data-aos="flip-down">
+    data-aos="zoom-in">
       <h1 className="font-bold text-accent-focus">Md. Abu Saiem Aziz Chowdhury</h1>
       <h1 className=" text-sm font-bold text-accent-focus">Address: Imam-Nagar, Bhatiary, Sitakund, Chitagong, Bangladesh</h1>
       <div

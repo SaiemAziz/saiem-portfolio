@@ -27,7 +27,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="mb-10 mx-5">
+    <div className="mb-10 mx-5" data-aos='zoom-out' data-aos-easing="ease-in-sine">
       <h1 className="text-6xl italic text-success font-semibold mb-5">
         Contact ME
       </h1>
@@ -49,7 +49,7 @@ const Contact = () => {
           className="text-info input input-bordered input-accent w-full my-2 placeholder:text-info"
         />
         <textarea
-          className="textarea textarea-success mt-2 placeholder:text-white"
+          className="textarea textarea-success text-warning mt-2 placeholder:text-warning"
           name="details"
           placeholder="Details"
         ></textarea>
