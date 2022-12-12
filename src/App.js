@@ -9,6 +9,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import { Country, State, City }  from 'country-state-city';
 import Contact from "./components/Contact";
+import AboutMe from "./components/AboutMe";
 // https://i.ibb.co/FYwxDgd/milad-fakurian-aa-STQ-w-Y5-DQ-unsplash.jpg
 // https://i.pinimg.com/originals/20/ae/f2/20aef23d39a8dcb74bf663ed89ab08d6.gif
 // https://i.pinimg.com/originals/e0/d6/35/e0d63599fce837f2a40ad8e877922188.gif
@@ -29,6 +30,7 @@ function App() {
       <div className="bg-gradient-to-t from-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.3)] min-h-screen">
         <Banner />
         <Projects />
+        <AboutMe />
         <Contact />
         <Footer />
       </div>
